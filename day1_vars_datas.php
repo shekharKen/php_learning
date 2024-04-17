@@ -13,6 +13,7 @@
     // strings  = "abcstring213412", "$%%sxfsadf", 'asdfsdf',
     // array = [], array();
     // objects = class on instance 
+    // boolean = true, false
 
 
 
