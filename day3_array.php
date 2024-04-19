@@ -97,15 +97,40 @@
     arsort($assoc);
 
     // merge
-$a = [1, 2,3,4];
+// $a = [1,2,3,4,5,6,7,8, ....., n];
+    //0,1,2,3       8-1=7,      n-1;
+
+
+
+$a = [5,6, 7];
 $b = [5,6, 7];
 
 $c = array_merge($a, $b);
 
 print_r($c);
 
+echo "<br>";
+echo "<br>";
+echo "<br>";
+echo "<br>";
+$arr = [1,2,3,4,5,6,7,8,9,11,234,455];
+$count = count($arr); // last elemnent position
+
+$index = $count - 1;
+
+echo $arr[$index];
+
+
 
 // task - fruit / veg list in ul => li
+
+$fruits = [
+    ["grapes" => 123],
+    ["mango" => 100],
+    ["apple" => 200],
+];
+
+
 
 
 
