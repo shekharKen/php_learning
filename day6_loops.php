@@ -10,7 +10,7 @@ for($i = 0; $i <= 3; $i++) {
 }
 
 // task  ul > li 
-$fruits = ["apple", "mango", "banana"];
+$fruits = ["apple", "mango", "banana", "grapes"];
 $tag = "<ul>";
 
 for($i = 0; $i < count($fruits); $i++) {
@@ -34,7 +34,6 @@ for($i = 1; $i < 10; $i++) {
 }
 
 // multiple
-
 for($i = 1; $i <= 5; $i++) {
     for($j = 1; $j <= 5; $j++) {
         echo $i . " " . $j;
@@ -63,4 +62,18 @@ for($i = 1; $i <= 5; $i++) {
 
 
 
+
 ?>
+
+
+******
+******
+******
+******
+
+
+// * * * * * 
+// * * * * 
+// * * * 
+// * * 
+// *
