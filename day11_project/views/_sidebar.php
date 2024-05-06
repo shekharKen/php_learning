@@ -14,7 +14,9 @@
           <img src="../public/dist/img/user2-160x160.jpg" class="img-circle elevation-2" alt="User Image">
         </div>
         <div class="info">
-          <a href="#" class="d-block">Alexander Pierce</a>
+          <?php if(isset($_SESSION['user_email'])){ ?>
+            <a href="#" class="d-block"><?php echo $_SESSION['user_email'] ?></a>
+          <?php } ?>
         </div>
       </div>
 
@@ -62,6 +64,17 @@
               <p>
                 Users
                 <span class="right badge badge-danger">New</span>
+              </p>
+            </a>
+          </li>
+
+
+          <li class="nav-item">
+            <a href="../controllers/adminController.php?action=logout" class="nav-link">
+              <i class="nav-icon fas fa-th"></i>
+              <p>
+                Logout
+                <!-- <span class="right badge badge-danger">Logout</span> -->
               </p>
             </a>
           </li>
