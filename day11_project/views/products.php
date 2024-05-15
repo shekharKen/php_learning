@@ -36,6 +36,8 @@
             <div class="card">
               <div class="card-header">
                 <h3 class="card-title">Bordered Table</h3>
+                <br>
+                <a href="product_add.php">Add Product</a>
               </div>
               <!-- /.card-header -->
               <div class="card-body">
