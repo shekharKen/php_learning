@@ -23,5 +23,14 @@
     }
 
 
+    function getProducts()
+    {
+        $query = "SELECT * FROM products ORDER BY created_on desc"; // asc 
+
+        return runQuery($query);
+
+    }
+
+
 
 ?>
